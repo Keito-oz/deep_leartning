@@ -1,0 +1,20 @@
+campany_A={"sales":100,"cost":80,"persons":10}
+company_B={"sales":40,"cost":60,"persons":20}
+
+#class
+class Company:
+  def __init__(self,sales,cost,persons):
+    self.sales=sales
+    self.cost=cost
+    self.persons=persons
+    
+  def getprofit(self):
+      return self.sales-self.cost
+     
+company_A=Company(100,80,10)
+company_B=Company(40,60,20)
+
+#array
+#import numpy as np
+np.zeros(10).reshape(2,5)
+np.identity(10)
